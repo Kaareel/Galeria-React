@@ -6,8 +6,40 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  color: red;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #282c34;
+
+}
+.titulo{
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
+.carta{
+  margin: 5px ;
+
+}
+.cartas{
+  width:315px ;
+  margin: 10px;
+}
+
+img{
+  height: 300px;
+  width: 100%;
+}
+.footer{
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
 }
